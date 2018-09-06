@@ -1,0 +1,394 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		010791712084E945004E38F4 /* heli.png in CopyFiles */ = {isa = PBXBuildFile; fileRef = 0107916C2084E944004E38F4 /* heli.png */; };
+		010791722084E945004E38F4 /* tailrotor.obj in CopyFiles */ = {isa = PBXBuildFile; fileRef = 0107916D2084E944004E38F4 /* tailrotor.obj */; };
+		010791732084E945004E38F4 /* mainrotor.obj in CopyFiles */ = {isa = PBXBuildFile; fileRef = 0107916E2084E944004E38F4 /* mainrotor.obj */; };
+		010791742084E945004E38F4 /* heli.obj in CopyFiles */ = {isa = PBXBuildFile; fileRef = 0107916F2084E945004E38F4 /* heli.obj */; };
+		010791752084E945004E38F4 /* heliait.png in CopyFiles */ = {isa = PBXBuildFile; fileRef = 010791702084E945004E38F4 /* heliait.png */; };
+		013001CB20650C6600DC7295 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 013001CA20650C6600DC7295 /* main.cpp */; };
+		013001D320650C7100DC7295 /* GLUT.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 013001D220650C7100DC7295 /* GLUT.framework */; };
+		013001D520650C7500DC7295 /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 013001D420650C7500DC7295 /* OpenGL.framework */; };
+		013001D720650CFE00DC7295 /* stb_image.c in Sources */ = {isa = PBXBuildFile; fileRef = 013001D620650CFE00DC7295 /* stb_image.c */; };
+		0140A23120776D6B00E553E5 /* tree.png in CopyFiles */ = {isa = PBXBuildFile; fileRef = 0140A22D20776D6B00E553E5 /* tree.png */; };
+		0140A23220776D6B00E553E5 /* tree.obj in CopyFiles */ = {isa = PBXBuildFile; fileRef = 0140A22E20776D6B00E553E5 /* tree.obj */; };
+		0140A23320776D6B00E553E5 /* tigger.obj in CopyFiles */ = {isa = PBXBuildFile; fileRef = 0140A22F20776D6B00E553E5 /* tigger.obj */; };
+		0140A23420776D6B00E553E5 /* tigger.png in CopyFiles */ = {isa = PBXBuildFile; fileRef = 0140A23020776D6B00E553E5 /* tigger.png */; };
+		016D872920ACD53400A5E775 /* bullet.obj in CopyFiles */ = {isa = PBXBuildFile; fileRef = 016D872820ACD53400A5E775 /* bullet.obj */; };
+		016D872B20ACD54300A5E775 /* steel.png in CopyFiles */ = {isa = PBXBuildFile; fileRef = 016D872A20ACD54300A5E775 /* steel.png */; };
+		019A14FF208744C900414729 /* negz512.jpg in CopyFiles */ = {isa = PBXBuildFile; fileRef = 019A14F3208744C800414729 /* negz512.jpg */; };
+		019A1500208744C900414729 /* negy.jpg in CopyFiles */ = {isa = PBXBuildFile; fileRef = 019A14F4208744C800414729 /* negy.jpg */; };
+		019A1501208744C900414729 /* negx512.jpg in CopyFiles */ = {isa = PBXBuildFile; fileRef = 019A14F5208744C800414729 /* negx512.jpg */; };
+		019A1502208744C900414729 /* negy512.jpg in CopyFiles */ = {isa = PBXBuildFile; fileRef = 019A14F6208744C800414729 /* negy512.jpg */; };
+		019A1503208744C900414729 /* posx.jpg in CopyFiles */ = {isa = PBXBuildFile; fileRef = 019A14F7208744C900414729 /* posx.jpg */; };
+		019A1504208744C900414729 /* posy.jpg in CopyFiles */ = {isa = PBXBuildFile; fileRef = 019A14F8208744C900414729 /* posy.jpg */; };
+		019A1505208744C900414729 /* negx.jpg in CopyFiles */ = {isa = PBXBuildFile; fileRef = 019A14F9208744C900414729 /* negx.jpg */; };
+		019A1506208744C900414729 /* posz.jpg in CopyFiles */ = {isa = PBXBuildFile; fileRef = 019A14FA208744C900414729 /* posz.jpg */; };
+		019A1507208744C900414729 /* negz.jpg in CopyFiles */ = {isa = PBXBuildFile; fileRef = 019A14FB208744C900414729 /* negz.jpg */; };
+		019A1508208744C900414729 /* posx512.jpg in CopyFiles */ = {isa = PBXBuildFile; fileRef = 019A14FC208744C900414729 /* posx512.jpg */; };
+		019A1509208744C900414729 /* posy512.jpg in CopyFiles */ = {isa = PBXBuildFile; fileRef = 019A14FD208744C900414729 /* posy512.jpg */; };
+		019A150A208744C900414729 /* posz512.jpg in CopyFiles */ = {isa = PBXBuildFile; fileRef = 019A14FE208744C900414729 /* posz512.jpg */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		013001C520650C6600DC7295 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		013001EC2065118A00DC7295 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 6;
+			files = (
+				016D872B20ACD54300A5E775 /* steel.png in CopyFiles */,
+				016D872920ACD53400A5E775 /* bullet.obj in CopyFiles */,
+				019A14FF208744C900414729 /* negz512.jpg in CopyFiles */,
+				019A1500208744C900414729 /* negy.jpg in CopyFiles */,
+				019A1501208744C900414729 /* negx512.jpg in CopyFiles */,
+				019A1502208744C900414729 /* negy512.jpg in CopyFiles */,
+				019A1503208744C900414729 /* posx.jpg in CopyFiles */,
+				019A1504208744C900414729 /* posy.jpg in CopyFiles */,
+				019A1505208744C900414729 /* negx.jpg in CopyFiles */,
+				019A1506208744C900414729 /* posz.jpg in CopyFiles */,
+				019A1507208744C900414729 /* negz.jpg in CopyFiles */,
+				019A1508208744C900414729 /* posx512.jpg in CopyFiles */,
+				019A1509208744C900414729 /* posy512.jpg in CopyFiles */,
+				019A150A208744C900414729 /* posz512.jpg in CopyFiles */,
+				010791712084E945004E38F4 /* heli.png in CopyFiles */,
+				010791722084E945004E38F4 /* tailrotor.obj in CopyFiles */,
+				010791732084E945004E38F4 /* mainrotor.obj in CopyFiles */,
+				010791742084E945004E38F4 /* heli.obj in CopyFiles */,
+				010791752084E945004E38F4 /* heliait.png in CopyFiles */,
+				0140A23120776D6B00E553E5 /* tree.png in CopyFiles */,
+				0140A23220776D6B00E553E5 /* tree.obj in CopyFiles */,
+				0140A23320776D6B00E553E5 /* tigger.obj in CopyFiles */,
+				0140A23420776D6B00E553E5 /* tigger.png in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		0107916C2084E944004E38F4 /* heli.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = heli.png; path = "Meshes/mesh-2/heli/heli.png"; sourceTree = "<group>"; };
+		0107916D2084E944004E38F4 /* tailrotor.obj */ = {isa = PBXFileReference; lastKnownFileType = text; name = tailrotor.obj; path = "Meshes/mesh-2/heli/tailrotor.obj"; sourceTree = "<group>"; };
+		0107916E2084E944004E38F4 /* mainrotor.obj */ = {isa = PBXFileReference; lastKnownFileType = text; name = mainrotor.obj; path = "Meshes/mesh-2/heli/mainrotor.obj"; sourceTree = "<group>"; };
+		0107916F2084E945004E38F4 /* heli.obj */ = {isa = PBXFileReference; lastKnownFileType = text; name = heli.obj; path = "Meshes/mesh-2/heli/heli.obj"; sourceTree = "<group>"; };
+		010791702084E945004E38F4 /* heliait.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = heliait.png; path = "Meshes/mesh-2/heli/heliait.png"; sourceTree = "<group>"; };
+		013001C720650C6600DC7295 /* Tiger */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Tiger; sourceTree = BUILT_PRODUCTS_DIR; };
+		013001CA20650C6600DC7295 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		013001D220650C7100DC7295 /* GLUT.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLUT.framework; path = System/Library/Frameworks/GLUT.framework; sourceTree = SDKROOT; };
+		013001D420650C7500DC7295 /* OpenGL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGL.framework; path = System/Library/Frameworks/OpenGL.framework; sourceTree = SDKROOT; };
+		013001D620650CFE00DC7295 /* stb_image.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = stb_image.c; sourceTree = "<group>"; };
+		0140A22D20776D6B00E553E5 /* tree.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tree.png; sourceTree = "<group>"; };
+		0140A22E20776D6B00E553E5 /* tree.obj */ = {isa = PBXFileReference; lastKnownFileType = text; path = tree.obj; sourceTree = "<group>"; };
+		0140A22F20776D6B00E553E5 /* tigger.obj */ = {isa = PBXFileReference; lastKnownFileType = text; path = tigger.obj; sourceTree = "<group>"; };
+		0140A23020776D6B00E553E5 /* tigger.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tigger.png; sourceTree = "<group>"; };
+		016D872820ACD53400A5E775 /* bullet.obj */ = {isa = PBXFileReference; lastKnownFileType = text; name = bullet.obj; path = Meshes/bullet.obj; sourceTree = "<group>"; };
+		016D872A20ACD54300A5E775 /* steel.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = steel.png; path = Meshes/steel.png; sourceTree = "<group>"; };
+		019A14F3208744C800414729 /* negz512.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = negz512.jpg; path = envmap/negz512.jpg; sourceTree = "<group>"; };
+		019A14F4208744C800414729 /* negy.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = negy.jpg; path = envmap/negy.jpg; sourceTree = "<group>"; };
+		019A14F5208744C800414729 /* negx512.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = negx512.jpg; path = envmap/negx512.jpg; sourceTree = "<group>"; };
+		019A14F6208744C800414729 /* negy512.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = negy512.jpg; path = envmap/negy512.jpg; sourceTree = "<group>"; };
+		019A14F7208744C900414729 /* posx.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = posx.jpg; path = envmap/posx.jpg; sourceTree = "<group>"; };
+		019A14F8208744C900414729 /* posy.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = posy.jpg; path = envmap/posy.jpg; sourceTree = "<group>"; };
+		019A14F9208744C900414729 /* negx.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = negx.jpg; path = envmap/negx.jpg; sourceTree = "<group>"; };
+		019A14FA208744C900414729 /* posz.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = posz.jpg; path = envmap/posz.jpg; sourceTree = "<group>"; };
+		019A14FB208744C900414729 /* negz.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = negz.jpg; path = envmap/negz.jpg; sourceTree = "<group>"; };
+		019A14FC208744C900414729 /* posx512.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = posx512.jpg; path = envmap/posx512.jpg; sourceTree = "<group>"; };
+		019A14FD208744C900414729 /* posy512.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = posy512.jpg; path = envmap/posy512.jpg; sourceTree = "<group>"; };
+		019A14FE208744C900414729 /* posz512.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = posz512.jpg; path = envmap/posz512.jpg; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		013001C420650C6600DC7295 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				013001D520650C7500DC7295 /* OpenGL.framework in Frameworks */,
+				013001D320650C7100DC7295 /* GLUT.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		013001BE20650C6600DC7295 = {
+			isa = PBXGroup;
+			children = (
+				016D872A20ACD54300A5E775 /* steel.png */,
+				016D872820ACD53400A5E775 /* bullet.obj */,
+				019A14F9208744C900414729 /* negx.jpg */,
+				019A14F5208744C800414729 /* negx512.jpg */,
+				019A14F4208744C800414729 /* negy.jpg */,
+				019A14F6208744C800414729 /* negy512.jpg */,
+				019A14FB208744C900414729 /* negz.jpg */,
+				019A14F3208744C800414729 /* negz512.jpg */,
+				019A14F7208744C900414729 /* posx.jpg */,
+				019A14FC208744C900414729 /* posx512.jpg */,
+				019A14F8208744C900414729 /* posy.jpg */,
+				019A14FD208744C900414729 /* posy512.jpg */,
+				019A14FA208744C900414729 /* posz.jpg */,
+				019A14FE208744C900414729 /* posz512.jpg */,
+				0107916F2084E945004E38F4 /* heli.obj */,
+				0107916C2084E944004E38F4 /* heli.png */,
+				010791702084E945004E38F4 /* heliait.png */,
+				0107916E2084E944004E38F4 /* mainrotor.obj */,
+				0107916D2084E944004E38F4 /* tailrotor.obj */,
+				0140A22F20776D6B00E553E5 /* tigger.obj */,
+				0140A23020776D6B00E553E5 /* tigger.png */,
+				0140A22E20776D6B00E553E5 /* tree.obj */,
+				0140A22D20776D6B00E553E5 /* tree.png */,
+				013001C920650C6600DC7295 /* Tiger */,
+				013001C820650C6600DC7295 /* Products */,
+				013001D120650C7100DC7295 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		013001C820650C6600DC7295 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				013001C720650C6600DC7295 /* Tiger */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		013001C920650C6600DC7295 /* Tiger */ = {
+			isa = PBXGroup;
+			children = (
+				013001CA20650C6600DC7295 /* main.cpp */,
+				013001D620650CFE00DC7295 /* stb_image.c */,
+			);
+			path = Tiger;
+			sourceTree = "<group>";
+		};
+		013001D120650C7100DC7295 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				013001D420650C7500DC7295 /* OpenGL.framework */,
+				013001D220650C7100DC7295 /* GLUT.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		013001C620650C6600DC7295 /* Tiger */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 013001CE20650C6600DC7295 /* Build configuration list for PBXNativeTarget "Tiger" */;
+			buildPhases = (
+				013001C320650C6600DC7295 /* Sources */,
+				013001C420650C6600DC7295 /* Frameworks */,
+				013001C520650C6600DC7295 /* CopyFiles */,
+				013001EC2065118A00DC7295 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Tiger;
+			productName = Tiger;
+			productReference = 013001C720650C6600DC7295 /* Tiger */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		013001BF20650C6600DC7295 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "Mahesh Dhulipala";
+				TargetAttributes = {
+					013001C620650C6600DC7295 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 013001C220650C6600DC7295 /* Build configuration list for PBXProject "Tiger" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 013001BE20650C6600DC7295;
+			productRefGroup = 013001C820650C6600DC7295 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				013001C620650C6600DC7295 /* Tiger */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		013001C320650C6600DC7295 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				013001CB20650C6600DC7295 /* main.cpp in Sources */,
+				013001D720650CFE00DC7295 /* stb_image.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		013001CC20650C6600DC7295 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		013001CD20650C6600DC7295 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		013001CF20650C6600DC7295 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		013001D020650C6600DC7295 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		013001C220650C6600DC7295 /* Build configuration list for PBXProject "Tiger" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				013001CC20650C6600DC7295 /* Debug */,
+				013001CD20650C6600DC7295 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		013001CE20650C6600DC7295 /* Build configuration list for PBXNativeTarget "Tiger" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				013001CF20650C6600DC7295 /* Debug */,
+				013001D020650C6600DC7295 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 013001BF20650C6600DC7295 /* Project object */;
+}
